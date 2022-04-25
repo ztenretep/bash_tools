@@ -1,6 +1,10 @@
 #!/usr/bin/bash
 
-# Get filename from command line argument.
+# One can use standard Posix bracket Expression for removal:
+# [[:space:]] = all whitespace characters including line breaks
+# [[:blank:]] = space and tab
+
+# Get the filename from the command line argument.
 FN=$1
 
 # Check if filename was given.
