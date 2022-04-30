@@ -14,7 +14,7 @@ trap_ctrl_c() {
 }
 
 # Set up trap for CTRL+C.
-trap trap_ctrl_c
+trap trap_ctrl_c INT
 
 # Print the current power draw of the Nvidia grafic card to the screen.
 nvidia-smi -i ${DEV} --query-gpu=power.draw --format=csv --loop-ms=1000
