@@ -1,0 +1,9 @@
+# Check Nvidia environment
+nvidia-smi
+
+# Set persistance mode.
+nvidia-smi -i <device> -pm ENABLE
+
+# Set power limit in Watt.
+nvidia-smi -i <device> -pl <Power-Limit>
+
