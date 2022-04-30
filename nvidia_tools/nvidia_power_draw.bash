@@ -9,7 +9,7 @@ DEV=0
 
 # Function which is called from trap.
 trap_ctrl_c() {
-    echo '<CTRL+C> has been trapped!'
+    echo "CTRL+C has been trapped!"
     exit 1
 }
 
@@ -17,7 +17,7 @@ trap_ctrl_c() {
 trap trap_ctrl_c INT
 
 # Print the current power draw of the Nvidia grafic card to the screen.
-nvidia-smi -i ${DEV} --query-gpu=power.draw --format=csv --loop-ms=1000
+nvidia-smi -i "${DEV}" --query-gpu=power.draw --format=csv --loop-ms=1000
 
 # Exit script without error.
 exit 0
