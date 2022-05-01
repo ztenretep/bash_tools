@@ -4,7 +4,7 @@
 # After setting the power of an installed Nvidia graphics card, this script
 # displays the current power consumption at an interval of 1000 milliseconds.
 
-# Set the grafic card number to monitor.
+# Set the grafic card number.
 DEV=0
 
 # Function which is called from trap.
