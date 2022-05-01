@@ -4,9 +4,12 @@
 # Setting power limit to 100 Watt reduce the power draw in process to 100 Watt or less.
 
 # Set the device.
+DEV=O
+
+# Set the power limit.
 POWER_LIMIT=100
 
-# Change persistance mode.
+# Change power limit of device.
 nvidia-smi -i "${DEV}" -pl "${POWER_LIMIT}"
 
 # Exit script without error.
