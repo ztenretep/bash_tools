@@ -3,10 +3,10 @@
 <p align="justify">While using Nvidia grafic cards one has to deal with two types of software tools and interfaces. These are namely OpenCL
 and CUDA. Programming and control of a graphics processing units (GPU) is possible via OpenCL and CUDA.</p>
 
-<p align="justify">OpenCL and CUDA is e.g. used in crypto mining. One CPU works together with one or more grafic cards which can be controlled 
-by OpenCL and CUDA.</p>
+<p align="justify">OpenCL and CUDA is e.g. used in crypto mining. One or more CPUs works together with one or more GPUs which can be controlled 
+using OpenCL and CUDA.</p>
 
-<p align="justify">CUDA supports only NVIDIA devices, while OpenCL is an open standard for different kind systems.</p>
+<p align="justify">CUDA supports only NVIDIA devices, while OpenCL is an open standard for different kind of devices.</p>
 
 # OpenCl
 
