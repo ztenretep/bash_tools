@@ -9,11 +9,13 @@ DEV=0
 
 # Function which is called from trap.
 trap_ctrl_c() {
-    echo "CTRL+C has been trapped!"
-    exit 1
+    # Print farewell message to the screen.
+    echo "You pressed CTRL+C. Bye!"
+    # Exit script without error.
+    exit 0
 }
 
-# Set up trap for CTRL+C.
+# Register function for trap catching CTRL+C.
 trap trap_ctrl_c INT
 
 # Print the current power draw of the Nvidia grafic card to the screen.
