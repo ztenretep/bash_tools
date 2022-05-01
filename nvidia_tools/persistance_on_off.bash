@@ -10,7 +10,7 @@ DEV=0
 # Set the status.
 STATUS=ENABLED
 
-# Change persistance mode.
+# Change persistance mode of device.
 nvidia-smi -i "${DEV}" -pm "${STATUS}"
 
 # Exit script without error.
