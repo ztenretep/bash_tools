@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 #
+# The command nvidia-smi is part of the NVIDIA driver package installation.
+#
 # When persistence mode is enabled, the NVIDIA driver remains loaded even when no 
 # active clients such nvidia-smi exists. This minimizes the driver load latency
 # with respect to running applications like CUDA programs.
