@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 #
+# This tool can be used to query the 2miners.com pool.
+#
 # Exchange <etc-wallet-id> with your wallet id (ETC address)
 
 # Set wallet id.
